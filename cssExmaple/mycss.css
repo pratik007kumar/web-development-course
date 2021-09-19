@@ -1,0 +1,15 @@
+p {
+		color:rgb(255, 99, 71); font-size: 12px;
+	}
+
+	.p1{
+		color: blue;
+	}
+
+	.p2{
+		font-size: 15px;
+		text-align: right;
+	}
+	.p3-color{
+		color: green;
+	}
