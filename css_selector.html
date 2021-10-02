@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form EXAMPLE</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+* {
+	font-family: cursive;
+	color: #fff;
+
+	}
+
+	
+
+
+</style>
+<body>
+
+	<div style="width:600px; margin: 0 auto; background-color: #006BA6; padding: 10px;">
+		<h1 style="color:#fff">Student Registration Form</h1>
+		<form method="post" action="test.php" >
+			<label>Name</label>
+			<input type="text" required="" name="st_name" id='st_name' value="" placeholder="ADD your name" 
+			style="" class="input-cls">
+			<label>Phone No.</label>
+			<input type="number" name="st_phone_no" id='st_phone_no' value="" placeholder="Phone No." 
+			class="input-cls"
+			>
+			<label>Email</label>
+
+			<input type="email" name="st_email" id='st_email' value="" placeholder="abc@test.com" 
+			style="width:90%; height:34px; border: 1px solid #D81159; border-radius: 25px; padding-left: 30px; margin-bottom: 10px;">
+			<p>Password</p>
+			<input type="password" name="st_password" id='st_password' value="" placeholder="********" 
+			style="width:90%; height:34px; border: 1px solid #D81159; border-radius: 25px; padding-left: 30px; margin-bottom: 10px;">
+
+
+			<input type="password" name="st_password" id='st_password' value="" placeholder="********" 
+			style="width:90%; height:34px; border: 1px solid #D81159; border-radius: 25px; padding-left: 30px; margin-bottom: 10px;">
+			
+			<div style="width:90%; height:34px; border: 1px solid #D81159; border-radius: 25px; padding-left: 30px; margin-bottom: 10px; background-color: #fff; padding-top:8px">
+				<input type="radio" name="gender"> Male
+				<input type="radio" name="gender"> Female
+			</div>
+
+			<div style="width:90%; height:34px; border: 1px solid #D81159; border-radius: 25px; padding-left: 30px; margin-bottom: 10px; background-color: #fff; padding-top:8px">
+				<input type="checkbox" name="chk1" value="hind"> Hind 
+				<input type="checkbox" name="chk2" value="english"> English
+				<input type="checkbox" name="chk2" value="math"> Math
+			</div>
+
+			<button type="button"> Close </button>
+			<button type="submit" style=" " id="submit"> Save </button>
+
+		</form>
+	</div>
+
+</body>
+</html>

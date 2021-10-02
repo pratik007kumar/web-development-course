@@ -1,0 +1,28 @@
+
+	#submit{
+		border: 1px solid #D81159; 
+		border-radius: 25px; 
+		margin-bottom: 10px;
+		background-color: green; 
+		padding-top:5px;
+		height: 35px; 
+		width:100px; 
+		text-align: 'center';
+		color: #fff;
+
+	}
+	.input-cls{
+		width:90%;
+		 height:34px; 
+		 border: 1px solid #D81159; 
+		 border-radius: 25px; 
+		 padding-left: 30px; 
+		 margin-bottom: 10px;
+	}
+	/* for form input lables */
+	p, label{
+		color: #fff;
+		/* font-size: 24px; */
+
+		height: 20px;
+	}
