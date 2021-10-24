@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Function</title>
+</head>
+<body>
+
+	<input type="number" name="" id="num">
+	<input type="number" name="" id="time">
+
+	<button type="button" onclick="showTables()">Show Tables</button>
+
+</body>
+<script type="text/javascript">
+	
+	function  showTables()
+	{
+		let num=document.getElementById('num').value;
+		console.log(num);
+		if(num == ''){
+			alert('Enter a number');
+			return false;
+		}
+
+		console.log('Table of :',num);
+	createTable(num,1);
+
+	}
+
+	function createTable(num,time){
+		let maxTime= parseInt( document.getElementById('time').value);
+
+		if(maxTime >= time){
+
+			console.log(num+'*'+ time +'=', (num * time))
+			return createTable(num,time+1)
+		} 
+		
+	}
+
+</script>
+</html>
